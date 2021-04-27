@@ -1,0 +1,7 @@
+name: oneflow-dev-cuda-10.2
+channels:
+  - anaconda
+  - defaults
+  - conda-forge
+dependencies:
+  - cudatoolkit=10.2
