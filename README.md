@@ -1,4 +1,4 @@
-# Conda env for OneFlow
+# Dev env for OneFlow
 
 - To setup conda (if already install as root)
     ```
