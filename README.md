@@ -1,5 +1,9 @@
 # Conda env for OneFlow
 
+- To setup conda (if already install as root)
+```
+/usr/local/anaconda3/bin/conda init
+```
 - To activate:
 ```bash
 conda activate oneflow-dev-cuda-10.2
