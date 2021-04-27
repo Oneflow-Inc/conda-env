@@ -1,6 +1,14 @@
 # Conda env for OneFlow
 
-Recommand cmake args:
+- To activate:
+```bash
+conda activate oneflow-dev-cuda-10.2
 ```
-cmake .. -DBUILD_CUDA=OFF -DCUDNN_STATIC=OFF -DPython3_EXECUTABLE=$CONDA_PREFIX/bin/python3 -DBUILD_SHARED_LIBS=ON
-```
+
+- Recommand cmake args:
+    ```bash
+    cmake .. -DBUILD_CUDA=OFF \
+        -DCUDNN_STATIC=OFF \
+        -DPython3_EXECUTABLE=$CONDA_PREFIX/bin/python3 \
+        -DBUILD_SHARED_LIBS=ON
+    ```
