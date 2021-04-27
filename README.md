@@ -11,8 +11,9 @@
 
 - Recommand cmake args:
     ```bash
-    cmake .. -DBUILD_CUDA=OFF \
+    cmake .. \
         -DCUDNN_STATIC=OFF \
         -DPython3_EXECUTABLE=$CONDA_PREFIX/bin/python3 \
-        -DBUILD_SHARED_LIBS=ON
+        -DBUILD_SHARED_LIBS=ON \
+        -DBUILD_GIT_VERSION=OFF
     ```

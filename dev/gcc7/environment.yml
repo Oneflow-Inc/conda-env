@@ -1,4 +1,4 @@
-name: oneflow-dev-cuda-10.2
+name: oneflow-dev-gcc7
 channels:
   - anaconda
   - defaults
