@@ -1,6 +1,6 @@
 # Dev env for OneFlow
 
-- To setup conda
+- To setup conda (只需要运行一次)
     ```
     /usr/local/anaconda3/bin/conda init
     ```
