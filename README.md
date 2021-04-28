@@ -6,7 +6,7 @@
     ```
 - To activate:
     ```bash
-    conda activate oneflow-dev-gcc-7
+    conda activate oneflow-dev-gcc7
     ```
 
 - Recommand cmake args:
