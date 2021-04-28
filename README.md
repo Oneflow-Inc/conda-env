@@ -9,7 +9,7 @@
     conda activate oneflow-dev-gcc7
     ```
 
-- Recommand cmake args:
+- Recommanded cmake args:
     ```bash
     cmake .. \
         -DPython3_EXECUTABLE=$CONDA_PREFIX/bin/python3 \
