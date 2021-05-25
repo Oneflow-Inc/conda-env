@@ -13,8 +13,8 @@
     ```bash
     cmake .. \
         -DPython3_EXECUTABLE=$CONDA_PREFIX/bin/python3 \
-        -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda #一定要确保这两个目录真实存在\
-        -DCUDNN_ROOT_DIR=/usr/local/cudnn #一定要确保这两个目录真实存在\
+        -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda #一定要确保这个目录真实存在\
+        -DCUDNN_ROOT_DIR=/usr/local/cudnn #一定要确保这个目录真实存在\
         -DBUILD_SHARED_LIBS=ON \
         -DTHIRD_PARTY_MIRROR=aliyun \
         -DBUILD_GIT_VERSION=OFF
