@@ -16,8 +16,7 @@
         -DPython3_EXECUTABLE=$CONDA_PREFIX/bin/python3 \
         -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda \
         -DCUDNN_ROOT_DIR=/usr/local/cudnn \
-        -DTHIRD_PARTY_MIRROR=aliyun \
-        -DBUILD_GIT_VERSION=OFF
+        -DTHIRD_PARTY_MIRROR=aliyun
     ```
     其中 `-DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda` 和 `-DCUDNN_ROOT_DIR=/usr/local/cudnn` 可以根据实际需要调整，**一定要确保这两个目录真实存在**
     **一定要确保这两个目录真实存在**
@@ -44,5 +43,4 @@ oneflow-dev-gcc7         /usr/local/anaconda3/envs/oneflow-dev-gcc7
 ## Advanced
 ### 可以加速编译的一些 CMake 参数
 (如果知道这些参数是做什么的并且知道如何解决可能带来的错误，可以使用这些参数，否则请不要使用)
-- `-DBUILD_SHARED_LIBS=ON`
-- `-DCUDA_NVCC_GENCODES="arch=compute_75,code=sm_75"`
+- `-DBUILD_GIT_VERSION=OFF -DBUILD_SHARED_LIBS=ON -DCUDA_NVCC_GENCODES="arch=compute_75,code=sm_75"`
