@@ -30,6 +30,18 @@
 - oneflow-dev-gcc7 是用 root 权限创建的，普通用户不能够修改，但是有时候要做一些实验，希望能更新 conda 环境
 - 可以基于系统里提供的 oneflow-dev-gcc7 克隆一个，参考 https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#cloning-an-environment
 
+### 显示所有可用环境
+运行 `conda env list` 可显示所有可用的 conda 环境以及安装路径
+```
+(base) [caishenghang@oneflow-15 ~]$ conda env list
+# conda environments:
+#
+                         /home/caishenghang/miniconda2/envs/swig
+base                  *  /usr/local/anaconda3
+oneflow-dev-gcc7         /usr/local/anaconda3/envs/oneflow-dev-gcc7
+```
+
+## Advanced
 ### 可以加速编译的一些 CMake 参数
 (如果不知道这些参数是做什么的，请不要使用)
 - `-DBUILD_SHARED_LIBS=ON`
