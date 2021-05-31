@@ -43,4 +43,6 @@ oneflow-dev-gcc7         /usr/local/anaconda3/envs/oneflow-dev-gcc7
 ## Advanced
 ### 可以加速编译的一些 CMake 参数
 (如果知道这些参数是做什么的并且知道如何解决可能带来的错误，可以使用这些参数，否则请不要使用)
-- `-DBUILD_GIT_VERSION=OFF -DBUILD_SHARED_LIBS=ON -DCUDA_NVCC_GENCODES="arch=compute_75,code=sm_75"`
+```
+-DBUILD_GIT_VERSION=OFF -DBUILD_SHARED_LIBS=ON -DCUDA_NVCC_GENCODES="arch=compute_75,code=sm_75"
+```
