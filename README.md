@@ -13,7 +13,6 @@
     ```bash
     cmake .. \
         -DCMAKE_BUILD_TYPE=RelWithDebInfo \
-        -DPython3_EXECUTABLE=$CONDA_PREFIX/bin/python3 \
         -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda \
         -DCUDNN_ROOT_DIR=/usr/local/cudnn \
         -DTHIRD_PARTY_MIRROR=aliyun
