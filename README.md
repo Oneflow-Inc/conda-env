@@ -45,6 +45,7 @@ Please note that this change is not permanent.
 
 ### 显示所有可用环境
 运行 `conda env list` 可显示所有可用的 conda 环境以及安装路径
+
     ```
     (base) $ conda env list
     # conda environments:
