@@ -1,9 +1,12 @@
 # Dev env for OneFlow
 
-- To setup conda (只需要运行一次)
+- Create the environment
     ```
-    /usr/local/anaconda3/bin/conda init
+    git clone https://github.com/Oneflow-Inc/conda-env.git
+    cd conda-env
+    conda env create -f=dev/gcc7/environment.yml
     ```
+
 - To activate:
     ```bash
     conda activate oneflow-dev-gcc7
