@@ -12,7 +12,7 @@
     conda activate oneflow-dev-gcc7
     ```
 
-- Recommanded cmake args:
+- Recommanded cmake and make args:
     ```bash
     cmake .. \
         -DTHIRD_PARTY_MIRROR=aliyun -DPIP_INDEX_MIRROR=https://pypi.tuna.tsinghua.edu.cn/simple \
@@ -21,11 +21,15 @@
         -DCUDNN_ROOT_DIR=/usr/local/cudnn
     make -j$(nproc)
     ```
-    其中 `-DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda` 和 `-DCUDNN_ROOT_DIR=/usr/local/cudnn` 可以根据实际需要调整，
+    其中 `-DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda` 和 `-DCUDNN_ROOT_DIR=/usr/local/cudnn` 可以根据实际需要调整。
     **一定要确保这两个目录真实存在，并且包含 CUDA 和 cuDNN**
+
     **一定要确保这两个目录真实存在，并且包含 CUDA 和 cuDNN**
+
     **一定要确保这两个目录真实存在，并且包含 CUDA 和 cuDNN**
+
     **一定要确保这两个目录真实存在，并且包含 CUDA 和 cuDNN**
+
     **一定要确保这两个目录真实存在，并且包含 CUDA 和 cuDNN**
 - Add oneflow to your PYTHONPATH
 
@@ -33,7 +37,7 @@
     source build/source.sh
     ```
 
-Please note that this change is not permanent.
+    Please note that this change is not permanent.
 
 - Simple validation
 
