@@ -15,7 +15,8 @@
 - Recommanded cmake and make args:
     ```bash
     cmake .. \
-        -DTHIRD_PARTY_MIRROR=aliyun -DPIP_INDEX_MIRROR=https://pypi.tuna.tsinghua.edu.cn/simple \
+        -DTHIRD_PARTY_MIRROR=aliyun \
+        -DPIP_INDEX_MIRROR=https://pypi.tuna.tsinghua.edu.cn/simple \
         -DCMAKE_BUILD_TYPE=RelWithDebInfo \
         -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda \
         -DCUDNN_ROOT_DIR=/usr/local/cudnn
