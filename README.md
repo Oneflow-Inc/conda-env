@@ -15,7 +15,8 @@
 - Recommanded cmake and make args:
     ```bash
     cmake .. \
-        -DTHIRD_PARTY_MIRROR=aliyun -DPIP_INDEX_MIRROR=https://pypi.tuna.tsinghua.edu.cn/simple \
+        -DTHIRD_PARTY_MIRROR=aliyun \
+        -DPIP_INDEX_MIRROR=https://pypi.tuna.tsinghua.edu.cn/simple \
         -DCMAKE_BUILD_TYPE=RelWithDebInfo \
         -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda \
         -DCUDNN_ROOT_DIR=/usr/local/cudnn
@@ -63,5 +64,7 @@ oneflow-dev-gcc7         /usr/local/anaconda3/envs/oneflow-dev-gcc7
 (如果知道这些参数是做什么的并且知道如何解决可能带来的错误，可以使用这些参数，否则请不要使用)
 
 ```
--DBUILD_SHARED_LIBS=ON -DBUILD_GIT_VERSION=OFF -DCUDA_NVCC_GENCODES="arch=compute_75,code=sm_75"
+-DBUILD_SHARED_LIBS=ON \
+-DBUILD_GIT_VERSION=OFF \
+-DCUDA_NVCC_GENCODES="arch=compute_75,code=sm_75"
 ```
