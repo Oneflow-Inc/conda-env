@@ -20,6 +20,8 @@
         -DCMAKE_BUILD_TYPE=RelWithDebInfo \
         -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda \
         -DCUDNN_ROOT_DIR=/usr/local/cudnn
+    ```
+    ```bash
     make -j$(nproc)
     ```
     其中 `-DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda` 和 `-DCUDNN_ROOT_DIR=/usr/local/cudnn` 可以根据实际需要调整。
