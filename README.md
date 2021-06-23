@@ -1,11 +1,20 @@
 # Dev env for OneFlow
 
-- Create the environment
-    ```
-    git clone https://github.com/Oneflow-Inc/conda-env.git
-    cd conda-env
-    conda env create -f=dev/gcc7/environment.yml
-    ```
+- Check or create the environment `oneflow-dev-gcc7`
+    - To check:
+        ```
+        (base) $ conda env list
+        # conda environments:
+        #
+        base                  *  /usr/local/anaconda3
+        oneflow-dev-gcc7         /usr/local/anaconda3/envs/oneflow-dev-gcc7
+        ```
+    - To create:
+        ```
+        git clone https://github.com/Oneflow-Inc/conda-env.git
+        cd conda-env
+        conda env create -f=dev/gcc7/environment.yml
+        ```
 
 - To activate:
     ```bash
@@ -50,16 +59,6 @@
 - oneflow-dev-gcc7 是用 root 权限创建的，普通用户不能够修改，但是有时候要做一些实验，希望能更新 conda 环境
 - 可以基于系统里提供的 oneflow-dev-gcc7 克隆一个，参考 https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#cloning-an-environment
 
-### 显示所有可用环境
-运行 `conda env list` 可显示所有可用的 conda 环境以及安装路径
-
-```
-(base) $ conda env list
-# conda environments:
-#
-base                  *  /usr/local/anaconda3
-oneflow-dev-gcc7         /usr/local/anaconda3/envs/oneflow-dev-gcc7
-```
 
 ## Advanced
 ### 可以加速编译的一些 CMake 参数
