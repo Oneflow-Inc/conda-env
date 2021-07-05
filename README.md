@@ -15,6 +15,10 @@
         cd conda-env
         conda env create -f=dev/gcc7/environment.yml
         ```
+        Inside the environment:
+        ```
+        conda env config vars set CXXFLAGS="-fPIC"
+        ```
 
 - To activate:
     ```bash
