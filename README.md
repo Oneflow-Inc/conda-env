@@ -14,10 +14,8 @@
         git clone https://github.com/Oneflow-Inc/conda-env.git
         cd conda-env
         conda env create -f=dev/gcc7/environment.yml
-        ```
-        Inside the environment:
-        ```
-        conda env config vars set CXXFLAGS="-fPIC"
+        conda activate oneflow-dev-gcc7
+        conda activate oneflow-dev-gcc7
         ```
 
 - To activate:
