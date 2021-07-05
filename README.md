@@ -15,7 +15,7 @@
         cd conda-env
         conda env create -f=dev/gcc7/environment.yml
         conda activate oneflow-dev-gcc7
-        conda activate oneflow-dev-gcc7
+        conda env config vars set CXXFLAGS="-fPIC"
         ```
 
 - To activate:
