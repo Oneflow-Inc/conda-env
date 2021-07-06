@@ -40,6 +40,12 @@
 
     **一定要确保这两个目录真实存在，并且包含 CUDA 和 cuDNN**
 
+- (Clang only)
+    ```
+    conda env config vars set CC=$CONDA_PREFIX/bin/clang CXX=$CONDA_PREFIX/bin/clang++
+    cmake .. -DCMAKE_INCLUDE_PATH=$CONDA_PREFIX/include/
+    ```
+
 - Add oneflow to your PYTHONPATH
 
     ```
