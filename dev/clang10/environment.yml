@@ -108,3 +108,4 @@ dependencies:
 variables:
   CC: $CONDA_PREFIX/bin/clang
   CXX: $CONDA_PREFIX/bin/clang++
+  CXXFLAGS: -fPIC
