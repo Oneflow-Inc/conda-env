@@ -1,0 +1,42 @@
+name: oneflow-dev-gcc7
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=4.5=1_gnu
+  - autoconf=2.69=pl526hebd4dad_5
+  - binutils_impl_linux-64=2.33.1=he6710b0_7
+  - binutils_linux-64=2.33.1=h9595d00_15
+  - ca-certificates=2021.5.30=ha878542_0
+  - certifi=2021.5.30=py37h89c1867_0
+  - gcc_impl_linux-64=7.3.0=habb00fd_1
+  - gcc_linux-64=7.3.0=h553295d_15
+  - gxx_impl_linux-64=7.3.0=hdf63c60_1
+  - gxx_linux-64=7.3.0=h553295d_15
+  - ld_impl_linux-64=2.33.1=h53a641e_7
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=9.3.0=h5101ec6_17
+  - libgomp=9.3.0=h5101ec6_17
+  - libopenblas-static=0.3.13=h06a4308_0
+  - libstdcxx-ng=9.3.0=hd4cf53a_17
+  - libtool=2.4.6=h7b6447c_1005
+  - m4=1.4.18=h4e445db_0
+  - nasm=2.13.03=h7b6447c_1
+  - ncurses=6.2=he6710b0_1
+  - ninja=1.10.2=hff7bd54_1
+  - openssl=1.1.1k=h7f98852_0
+  - perl=5.26.2=h14c3975_0
+  - pip=21.0.1=py37h06a4308_0
+  - python=3.7.11=h12debd9_0
+  - python_abi=3.7=2_cp37m
+  - readline=8.1=h27cfd23_0
+  - sccache=0.2.15=h9b69904_0
+  - setuptools=52.0.0=py37h06a4308_0
+  - sqlite=3.36.0=hc218d9a_0
+  - tk=8.6.10=hbc83047_0
+  - wheel=0.37.0=pyhd3eb1b0_0
+  - xz=5.2.5=h7b6447c_0
+  - zlib=1.2.11=h7b6447c_3
+variables:
+  CXXFLAGS: -fPIC
