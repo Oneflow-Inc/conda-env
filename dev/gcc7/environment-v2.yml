@@ -1,4 +1,4 @@
-name: oneflow-dev-gcc7
+name: oneflow-dev-gcc7-v2
 channels:
   - conda-forge
   - defaults
@@ -38,5 +38,3 @@ dependencies:
   - wheel=0.37.0=pyhd3eb1b0_0
   - xz=5.2.5=h7b6447c_0
   - zlib=1.2.11=h7b6447c_3
-variables:
-  CXXFLAGS: -fPIC
