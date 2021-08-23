@@ -1,4 +1,4 @@
-name: oneflow-dev-gcc7-v2-fix
+name: oneflow-dev-gcc7-v2
 channels:
   - conda-forge
   - defaults
