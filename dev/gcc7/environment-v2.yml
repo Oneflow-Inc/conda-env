@@ -1,16 +1,15 @@
-name: oneflow-dev-gcc7-v2
+name: oneflow-dev-gcc7-v2-fix
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1=main
-  - _openmp_mutex=4.5=1_gnu
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=0_gnu
   - autoconf=2.69=pl526hebd4dad_5
   - binutils-meta=1.0.4=0
   - binutils_impl_linux-64=2.33.1=he6710b0_7
   - binutils_linux-64=2.33.1=h9595d00_15
   - bzip2=1.0.8=h7b6447c_0
-  - c-ares=1.17.1=h27cfd23_0
   - c-compiler=1.0.4=h516909a_0
   - ca-certificates=2021.7.5=h06a4308_1
   - certifi=2021.5.30=py37h06a4308_0
@@ -25,17 +24,15 @@ dependencies:
   - gfortran_linux-64=7.3.0=h553295d_15
   - gxx_impl_linux-64=7.3.0=hdf63c60_1
   - gxx_linux-64=7.3.0=h553295d_15
-  - krb5=1.19.2=hac12032_0
+  - krb5=1.19.1=h3535a68_0
   - ld_impl_linux-64=2.33.1=h53a641e_7
-  - libcurl=7.78.0=h0b77cf5_0
+  - libcurl=7.71.1=h303737a_2
   - libedit=3.1.20210216=h27cfd23_1
-  - libev=4.33=h7b6447c_0
   - libffi=3.3=he6710b0_2
-  - libgcc-ng=9.3.0=h5101ec6_17
+  - libgcc-ng=7.3.0=h24d8f2e_5
   - libgfortran-ng=7.5.0=ha8ba4b0_17
   - libgfortran4=7.5.0=ha8ba4b0_17
-  - libgomp=9.3.0=h5101ec6_17
-  - libnghttp2=1.41.0=hf8bcb03_2
+  - libgomp=7.3.0=h24d8f2e_5
   - libopenblas-static=0.3.13=h06a4308_0
   - libssh2=1.9.0=h1ba5d50_1
   - libstdcxx-ng=7.3.0=hdf63c60_0
@@ -49,12 +46,12 @@ dependencies:
   - openssl=1.1.1k=h27cfd23_0
   - perl=5.26.2=h14c3975_0
   - pip=21.0.1=py37h06a4308_0
-  - python=3.7.11=h12debd9_0
+  - python=3.7.10=hdb3f193_0
   - readline=8.1=h27cfd23_0
   - rhash=1.4.1=h3c74f83_1
-  - sccache=0.2.15=h9b69904_0
+  - sccache=0.2.13=hcdb4288_0
   - setuptools=52.0.0=py37h06a4308_0
-  - sqlite=3.36.0=hc218d9a_0
+  - sqlite=3.35.4=hdfb4753_0
   - tk=8.6.10=hbc83047_0
   - wheel=0.37.0=pyhd3eb1b0_0
   - xz=5.2.5=h7b6447c_0
