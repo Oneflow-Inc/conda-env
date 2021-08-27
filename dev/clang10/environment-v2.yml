@@ -6,6 +6,7 @@ dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=4.5=1_gnu
   - autoconf=2.69=pl526hebd4dad_5
+  - automake=1.16.2=pl526_0
   - bzip2=1.0.8=h7b6447c_0
   - c-ares=1.17.1=h27cfd23_0
   - ca-certificates=2021.7.5=h06a4308_1
