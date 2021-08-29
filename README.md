@@ -61,7 +61,7 @@
     ```
 ## MISC
 ### 基于已有环境自定义
-- oneflow-dev-gcc7-v2 是用 root 权限创建的，普通用户不能够修改，但是有时候要做一些实验，希望能更新 conda 环境
+- 如果 oneflow-dev-gcc7-v2 是用 root 权限创建的，普通用户不能够修改，但是有时候要做一些实验，希望能更新 conda 环境
 - 可以基于系统里提供的 oneflow-dev-gcc7-v2 克隆一个，参考 https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#cloning-an-environment
 
 
