@@ -12,6 +12,7 @@ dependencies:
   - bzip2=1.0.8=h7b6447c_0
   - c-compiler=1.0.4=h516909a_0
   - ca-certificates=2021.7.5=h06a4308_1
+  - ccache=3.7.9=hfe4627d_0
   - certifi=2021.5.30=py37h06a4308_0
   - cmake=3.18.2=ha30ef3c_0
   - compilers=1.0.4=0
@@ -45,15 +46,14 @@ dependencies:
   - ninja=1.10.2=hff7bd54_1
   - openssl=1.1.1k=h27cfd23_0
   - perl=5.26.2=h14c3975_0
-  - pip=21.0.1=py37h06a4308_0
+  - pip=21.2.2=py37h06a4308_0
   - python=3.7.10=hdb3f193_0
   - readline=8.1=h27cfd23_0
   - rhash=1.4.1=h3c74f83_1
-  - sccache=0.2.13=hcdb4288_0
   - setuptools=52.0.0=py37h06a4308_0
   - sqlite=3.35.4=hdfb4753_0
   - tk=8.6.10=hbc83047_0
-  - wheel=0.37.0=pyhd3eb1b0_0
+  - wheel=0.37.0=pyhd3eb1b0_1
   - xz=5.2.5=h7b6447c_0
   - zlib=1.2.11=h7b6447c_3
   - zstd=1.4.9=haebb681_0
