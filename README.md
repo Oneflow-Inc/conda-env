@@ -13,7 +13,7 @@
         ```
         git clone https://github.com/Oneflow-Inc/conda-env.git
         cd conda-env
-        conda env create -f=dev/gcc7/environment.yml
+        conda env create -f=dev/gcc7/environment-v2.yml
         conda activate oneflow-dev-gcc7-v2
         conda env config vars set CXXFLAGS="-fPIC"
         ```
@@ -21,6 +21,12 @@
 - To activate:
     ```bash
     conda activate oneflow-dev-gcc7-v2
+    ```
+
+- In the root directory of OneFlow source code, run:
+    ```bash
+    mkdir build
+    cd build
     ```
 
 - Recommanded cmake and make args:
