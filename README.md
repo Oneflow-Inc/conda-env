@@ -23,6 +23,12 @@
     conda activate oneflow-dev-gcc7-v2
     ```
 
+- In the root directory of OneFlow source code, run:
+    ```bash
+    mkdir build
+    cd build
+    ```
+
 - Recommanded cmake and make args:
     ```bash
     cmake .. -C ../cmake/caches/cn/cuda.cmake \
