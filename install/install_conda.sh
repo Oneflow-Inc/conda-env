@@ -11,12 +11,12 @@ then
       wget ${of_conda_installer_url}  
       bash Miniconda3-py39_4.10.3-Linux-x86_64.sh -b
     fi
-    conda config --set auto_activate_base false
-    cp install/condarc ~/.condarc 
 else
     echo "conda is found, escape installation."
 fi
 
+conda config --set auto_activate_base false
+cp install/condarc ~/.condarc 
 conda_bin=`which conda`
 echo $conda_bin
 
