@@ -23,7 +23,7 @@ else
     echo "conda is found, escape installation."
 fi
 
-conda config --set auto_activate_base false
+# conda config --set auto_activate_base false
 cp install/condarc ~/.condarc
 
 conda_envs=`conda env list`
