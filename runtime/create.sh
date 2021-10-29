@@ -38,6 +38,6 @@ fi
 
 conda activate $oneflow_env
 which python3
-
+python3 -m pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 set +x
 
