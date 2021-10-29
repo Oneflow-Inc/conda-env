@@ -4,7 +4,7 @@ set -x
 if ! command -v conda &> /dev/null
 then
     echo "conda could not be found, continue to install conda."
-    prepared_conda_installer=/nfs/git-repos/Miniconda3-py39_4.10.3-Linux-x86_64.sh
+    prepared_conda_installer=/nfs/tools/Miniconda3-py39_4.10.3-Linux-x86_64.sh
     of_conda_installer_url=http://oneflow-static.oss-cn-beijing.aliyuncs.com/downloads/conda-installers/Miniconda3-py39_4.10.3-Linux-x86_64.sh
 
     PREFIX=$HOME/miniconda3
@@ -23,19 +23,21 @@ else
     echo "conda is found, escape installation."
 fi
 
-# conda config --set auto_activate_base false
 cp install/condarc ~/.condarc
+# conda config --set auto_activate_base false
 
 conda_envs=`conda env list`
-oneflow_env="oneflow-dev-gcc7-v2"
+oneflow_env="oneflow-runtime"
 echo $conda_envs
 if [[ "$conda_envs" == *"$oneflow_env"* ]]; then
     echo "$oneflow_env has been created."
 else
     echo "$oneflow_env will be created ..."
-    conda env create -f=dev/gcc7/environment-v2.yml
-    #conda activate $oneflow_env
+    conda env create -f=./runtime/environment.yml
 fi
+
+conda activate $oneflow_env
+which python3
 
 set +x
 
