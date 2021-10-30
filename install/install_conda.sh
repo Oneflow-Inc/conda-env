@@ -25,19 +25,8 @@ fi
 
 cp install/condarc ~/.condarc
 # conda config --set auto_activate_base false
-
-conda_envs=`conda env list`
-oneflow_env="oneflow-runtime"
-echo $conda_envs
-if [[ "$conda_envs" == *"$oneflow_env"* ]]; then
-    echo "$oneflow_env has been created."
-else
-    echo "$oneflow_env will be created ..."
-    conda env create -f=./runtime/environment.yml
-fi
-
-conda activate $oneflow_env
-which python3
+conda activate base
 python3 -m pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
 set +x
 
