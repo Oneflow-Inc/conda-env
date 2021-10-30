@@ -25,8 +25,6 @@ fi
 
 cp install/condarc ~/.condarc
 # conda config --set auto_activate_base false
-conda activate base
-python3 -m pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 set +x
 
