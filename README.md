@@ -1,5 +1,11 @@
 # Dev env for OneFlow
 
+## Note
+
+**This conda environment is for building oneflow from source. You can install oneflow with pip command if you only want to use pre-built oneflow.**
+**这个 conda 环境只是用于编译 oneflow，如果只是想使用 oneflow，使用 pip 命令安装即可
+
+## Getting started
 - Check or create the environment `oneflow-dev-gcc7-v2`
     - To check:
         ```
