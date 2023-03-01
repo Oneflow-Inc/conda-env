@@ -1,5 +1,5 @@
 # Dev env for OneFlow
-
+**已过时，不再支持 gcc7**
 ## Note
 
 **This conda environment is for building oneflow from source. You can install oneflow with pip command if you only want to use pre-built oneflow.**
