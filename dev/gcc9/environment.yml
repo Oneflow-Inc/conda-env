@@ -1,0 +1,54 @@
+name: oneflow-dev-gcc9
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - ca-certificates=2022.12.7=ha878542_0
+  - ld_impl_linux-64=2.40=h41732ed_0
+  - libffi=3.3=h58526e2_2
+  - libgcc-ng=12.2.0=h65d4601_19
+  - libgomp=12.2.0=h65d4601_19
+  - libsqlite=3.40.0=h753d276_0
+  - libstdcxx-ng=12.2.0=h46fd767_19
+  - libzlib=1.2.13=h166bdaf_4
+  - ncurses=6.3=h27087fc_1
+  - openssl=1.1.1t=h0b41bf4_0
+  - pip=23.0.1=pyhd8ed1ab_0
+  - python=3.9.13=haa1d7c7_2
+  - readline=8.1.2=h0f457ee_0
+  - setuptools=67.4.0=pyhd8ed1ab_0
+  - sqlite=3.40.0=h4ff8645_0
+  - tk=8.6.12=h27826a3_0
+  - tzdata=2022g=h191b570_0
+  - wheel=0.38.4=pyhd8ed1ab_0
+  - xz=5.2.6=h166bdaf_0
+  - zlib=1.2.13=h166bdaf_4
+  - pip:
+    - MarkupSafe==2.1.2
+    - mdurl==0.1.2
+    - numpy==1.24.2
+    - opencv-python==4.7.0.72
+    - packaging==23.0
+    - pathspec==0.11.0
+    - Pillow==9.4.0
+    - pluggy==1.0.0
+    - portalocker==2.7.0
+    - protobuf==3.20.3
+    - Pygments==2.14.0
+    - pytest==7.2.1
+    - pytest-xdist==3.2.0
+    - PyYAML==6.0
+    - regex==2022.10.31
+    - requests==2.28.2
+    - rich==13.3.1
+    - six==1.16.0
+    - toml==0.10.2
+    - tomli==2.0.1
+    - tqdm==4.64.1
+    - typed-ast==1.5.4
+    - urllib3==1.26.14
+    - -i https://pypi.tuna.tsinghua.edu.cn/simple
+variables:
+  CXXFLAGS: -fPIC

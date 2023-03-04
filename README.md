@@ -1,5 +1,5 @@
 # Dev env for OneFlow
-**已过时，不再支持 gcc7**
+
 ## Note
 
 **This conda environment is for building oneflow from source. You can install oneflow with pip command if you only want to use pre-built oneflow.**
@@ -9,27 +9,27 @@
 **请先尝试用系统环境直接编译，推荐在操作系统不支持编译的时候才使用本 conda 环境**
 
 ## Getting started
-- Check or create the environment `oneflow-dev-gcc7-v2`
+- Check or create the environment `oneflow-dev-gcc9`
     - To check:
         ```
         (base) $ conda env list
         # conda environments:
         #
         base                  *  /usr/local/anaconda3
-        oneflow-dev-gcc7-v2         /usr/local/anaconda3/envs/oneflow-dev-gcc7-v2
+        oneflow-dev-gcc9         /usr/local/anaconda3/envs/oneflow-dev-gcc9
         ```
     - To create:
         ```
         git clone https://github.com/Oneflow-Inc/conda-env.git
         cd conda-env
-        conda env create -f=dev/gcc7/environment-v2.yml
-        conda activate oneflow-dev-gcc7-v2
+        conda env create -f=dev/gcc9/environment.yml
+        conda activate oneflow-dev-gcc9
         conda env config vars set CXXFLAGS="-fPIC"
         ```
 
 - To activate:
     ```bash
-    conda activate oneflow-dev-gcc7-v2
+    conda activate oneflow-dev-gcc9
     ```
 
 - In the root directory of OneFlow source code, run:
