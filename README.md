@@ -6,6 +6,8 @@
 
 **这个 conda 环境只是用于编译 oneflow，如果只是想使用 oneflow，使用 pip 命令安装即可**
 
+**注意gcc7下的环境已经与最新版本的oneflow不匹配了，如果要用gcc编译的话，请采用gcc9文件夹下的环境**
+
 **请先尝试用系统环境直接编译，推荐在操作系统不支持编译的时候才使用本 conda 环境**
 
 ## Getting started
